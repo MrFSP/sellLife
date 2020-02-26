@@ -1,6 +1,7 @@
 ## sellLife
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f307c046ee15e3cafd2/maintainability)](https://codeclimate.com/github/MrFSP/sellLife/maintainability)
+[![Build Status](https://travis-ci.org/MrFSP/sellLife.svg?branch=master)](https://travis-ci.org/MrFSP/sellLife)
 ![Node CI](https://github.com/MrFSP/sellLife/workflows/Node%20CI/badge.svg)
 
 ### Install
