@@ -1,0 +1,46 @@
+{
+  "name": "selllife",
+  "version": "1.0.0",
+  "description": "zen.yandex.ru test task",
+  "main": "index.js",
+  "bin": {
+    "selllife": "dist/bin/selllife.js"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrFSP/sellLife.git"
+  },
+  "keywords": [
+    "selllife"
+  ],
+  "author": "MrFSP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrFSP/sellLife/issues"
+  },
+  "homepage": "https://github.com/MrFSP/sellLife#readme",
+  "dependencies": {
+    "command": "0.0.5",
+    "commander": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.0",
+    "jest": "^25.1.0",
+    "jest-cli": "^25.1.0"
+  }
+}
