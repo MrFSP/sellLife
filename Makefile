@@ -1,8 +1,12 @@
 install:
+	npm install
 	rm -rf dist
 	npm run build
 	npm publish --dry-run
 	sudo npm link
+
+install-deps:
+	npm install
 
 start:
 	npx babel-node src/bin/selllife.js
