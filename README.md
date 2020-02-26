@@ -1,15 +1,16 @@
 ## sellLife
 
-[]
+[![Maintainability](https://api.codeclimate.com/v1/badges/9f307c046ee15e3cafd2/maintainability)](https://codeclimate.com/github/MrFSP/sellLife/maintainability)
+![Node CI](https://github.com/MrFSP/sellLife/workflows/Node%20CI/badge.svg)
 
 ### Install
 ```
-make install
+$ make install
 ```
 
 ### Start
 ```
-selllife [pathToFile]
+$ selllife [pathToFile]
 ```
 
 Дана доска размером M × N клеток. Клетка может находиться в одном из двух состояний: 
@@ -29,12 +30,12 @@ selllife [pathToFile]
 
 Start with random generator:
 ```
-selllife
+$ selllife
 ```
-<script id="asciicast-304857" src="https://asciinema.org/a/304857.js" async></script>
+[![asciicast](https://asciinema.org/a/304857.svg)](https://asciinema.org/a/304857)
 
 Start with file:
 ```
-selllife
+$ selllife example/data.txt
 ```
 [![asciicast](https://asciinema.org/a/304856.svg)](https://asciinema.org/a/304856)
